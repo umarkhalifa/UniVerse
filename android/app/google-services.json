@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "462087159239",
+    "project_id": "flutter-gram-97eed",
+    "storage_bucket": "flutter-gram-97eed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462087159239:android:009cf326c7f9a73a4f6de2",
+        "android_client_info": {
+          "package_name": "com.example.uni_verse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462087159239-6j97vkt85vvs5hfhs2v25q93ebj9lshk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXznhxGLlt2YKBM-aOwEA-ll-FgHcrFiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462087159239-6j97vkt85vvs5hfhs2v25q93ebj9lshk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "462087159239-ae9iclhenqhjevrne2citqudcr3d2gtj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.whatsappRedesign"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

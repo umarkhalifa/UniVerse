@@ -1,0 +1,159 @@
+name: uni_verse
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+  flutter_local_notifications: ^15.1.1
+  flutter_timezone: ^1.0.7
+  awesome_notifications: ^0.7.4+1
+  flutter_pdfview: ^1.3.1
+  path_provider: ^2.1.1
+  shared_preferences: ^2.2.1
+  firebase_core:
+  firebase_auth:
+  cloud_firestore:
+  firebase_storage:
+  uuid:
+  cached_network_image: ^3.3.0
+  timeago: ^3.5.0
+  syncfusion_flutter_pdfviewer: ^23.1.39
+
+
+  # dartz: Dart functional programming library for handling errors and functional constructs.
+  dartz:
+
+  # equatable: Simplifies the comparison of objects for equality by automatically generating `==` and `hashCode` methods.
+  equatable:
+
+  # flutter_animate: Provides widgets for animating UI elements in Flutter applications.
+  flutter_animate:
+
+  # flutter_hooks: Allows you to use Hooks in Flutter for more concise and efficient state management.
+  flutter_hooks:
+
+  # flutter_riverpod: A state management library for Flutter that is built on top of Riverpod.
+  flutter_riverpod:
+
+  #flutter_screenutil: A plugin for adapting screen and font size.Let your UI display a reasonable layout on different screen sizes
+  flutter_screenutil: ^5.9.0
+
+  # go_router: A Flutter package for declarative routing, making it easier to manage navigation in your app.
+  go_router: ^10.1.2
+
+  # hooks_riverpod: Provides additional hooks for Riverpod, enhancing state management capabilities.
+  hooks_riverpod:
+
+  # image_picker: Allows users to select images from the device's gallery or take photos with the camera.
+  image_picker: ^1.0.4
+
+  # intl: Flutter's internationalization and localization package for handling translations and formatting.
+  intl:
+
+  # solar_icons: A set of SVG icons for use in Flutter applications.
+  solar_icons:
+
+  # svg_flutter: A package for displaying Scalable Vector Graphics (SVG) in Flutter apps.
+  svg_flutter:
+
+  # smooth_page_indicator: Offers customizable page indicators for Flutter's PageView widget.
+  smooth_page_indicator:
+
+  shimmer: ^3.0.0
+  # carousel_slider: A Flutter package for creating image carousels or sliders.
+  carousel_slider: ^4.2.1
+
+  device_info_plus: ^9.0.3
+  flutter_spinkit:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/images/male/
+    - assets/images/female/
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Faktum
+      fonts:
+        - asset: assets/fonts/ClashDisplay-Regular.otf
+          weight: 500
+        - asset: assets/fonts/ClashDisplay-Medium.otf
+          weight: 700
+        - asset: assets/fonts/ClashDisplay-Semibold.otf
+          weight: 900
+        - asset: assets/fonts/ClashDisplay-Bold.otf
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
